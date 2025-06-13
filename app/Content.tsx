@@ -1,5 +1,6 @@
 'use client'
 
+import { AddToHomeScreen } from './AddToHomeScreen'
 import { Calculation } from './Calculation'
 import { description, title } from './constants'
 import OddsInput from './OddsInput'
@@ -20,6 +21,8 @@ export function Content() {
       <OddsInput {...{ odds: [odds1, odds2], setHashValues }} />
 
       <Calculation {...{ odds1, odds2 }} />
+
+      <AddToHomeScreen />
     </div>
   )
 }
