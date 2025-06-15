@@ -1,9 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 
-import { name as appUrl } from '../package.json'
 import appIcon from './apple-icon.png'
-import { title } from './constants'
+import { appUrl, title } from './constants'
 
 interface AppInstallModalProps {
   onClose: () => void
